@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Seema Celebrations</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #fff7fb;
+            color: #333;
+        }
+
+        header {
+            background: #ff4f9a;
+            color: white;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h2 {
+            font-size: 26px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(135deg, #ffd6e8, #fff0f7);
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            color: #d92778;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background: #ff4f9a;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #d92778;
+        }
+
+        .section {
+            padding: 60px 8%;
+            text-align: center;
+        }
+
+        .section h2 {
+            font-size: 32px;
+            color: #d92778;
+            margin-bottom: 35px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        .card .emoji {
+            font-size: 50px;
+            margin-bottom: 15px;
+        }
+
+        .card h3 {
+            color: #d92778;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+.card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+        footer {
+            background: #d92778;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>🎉 Seema Celebrations</h2>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+
+        <h1>Make Your Celebration Special 🎂</h1>
+
+        <p>
+            Beautiful birthday decorations & delicious cakes
+            for your special moments.
+        </p>
+
+      <button class="btn" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
+    Book Your Celebration
+</button>
+
+    </section>
+
+
+    <section class="section" id="services">
+
+    <h2>Our Celebration Packages</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <img src="decoration.jpg" alt="Birthday Decoration">
+
+            <h3>Birthday Decoration</h3>
+
+            <p>
+                Beautiful balloon decoration,
+                birthday backdrop and room decoration.
+            </p>
+
+            <p style="font-size: 18px; font-weight: bold; color: #d92778;">
+                Starting from ₹999
+            </p>
+
+          <a class="btn"
+   href="https://wa.me/918756089846?text=Hello%20Seema%20Celebrations,%20I%20want%20to%20book%20Birthday%20Decoration."
+   target="_blank">
+    Book Now
+</a>
+</div> 
+ 
+        <div class="card">
+         <img src="cake.jpg" alt="Birthday Cake">
+
+            <h3>Birthday Cake</h3>
+
+            <p>
+                Delicious and beautiful cakes
+                for birthdays and small celebrations.
+            </p>
+
+            <p style="font-size: 18px; font-weight: bold; color: #d92778;">
+                Starting from ₹499
+            </p>
+
+           <a class="btn"
+   href="https://wa.me/918756089846?text=Hello%20Seema%20Celebrations,%20I%20want%20to%20order%20a%20Birthday%20Cake."
+   target="_blank">
+    Order Cake
+</a>
+        </div>
+
+
+        <div class="card">
+        <img src="celebration.jpg" alt="Complete Celebration">
+
+            <h3>Complete Celebration</h3>
+
+            <p>
+                Decoration + Cake package
+                for a beautiful and stress-free celebration.
+            </p>
+
+            <p style="font-size: 18px; font-weight: bold; color: #d92778;">
+                Starting from ₹1,499
+            </p>
+
+           <a class="btn"
+   href="https://wa.me/918756089846?text=Hello%20Seema%20Celebrations,%20I%20want%20to%20book%20the%20Complete%20Celebration%20package."
+   target="_blank">
+    Book Package
+</a>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <section class="section" id="contact">
+
+    <h2>Contact Us</h2>
+
+    <p style="font-size: 20px; margin-bottom: 25px;">
+        Ready to plan your celebration? 🎉
+    </p>
+
+    <p style="font-size: 18px; margin-bottom: 10px;">
+    📞 Call / WhatsApp:
+    <a href="tel:+918756089846" style="color: #e91e63; text-decoration: none;">
+        87560 89846
+    </a>
+</p>
+
+    <p style="font-size: 18px; margin-bottom: 25px;">
+        📧 Email: seemacelebrations@gmail.com
+    </p>
+
+   <a class="btn" href="https://wa.me/918756089846?text=Hello%20Seema%20Celebrations,%20I%20want%20to%20book%20a%20celebration." target="_blank">
+    Book Your Celebration
+</a>
+</section>
+
+<footer>
+
+    <p>© 2026 Seema Celebrations | Birthday & Small Celebration Services</p>
+
+</footer>
+</body>
+
+</html>
