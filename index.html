@@ -5,262 +5,297 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Seema Celebrations</title>
+    <title>Raksha Bandhan Bhaiya 💗</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #fff7fb;
-            color: #333;
-        }
-
-        header {
-            background: #ff4f9a;
-            color: white;
-            padding: 20px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        header h2 {
-            font-size: 26px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 25px;
-            font-weight: bold;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 80px 20px;
-            background: linear-gradient(135deg, #ffd6e8, #fff0f7);
-        }
-
-        .hero h1 {
-            font-size: 48px;
-            color: #d92778;
-            margin-bottom: 20px;
-        }
-
-        .hero p {
-            font-size: 20px;
-            margin-bottom: 30px;
-        }
-
-        .btn {
-            background: #ff4f9a;
-            color: white;
-            border: none;
-            padding: 14px 28px;
-            border-radius: 30px;
-            font-size: 16px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .btn:hover {
-            background: #d92778;
-        }
-
-        .section {
-            padding: 60px 8%;
-            text-align: center;
-        }
-
-        .section h2 {
-            font-size: 32px;
-            color: #d92778;
-            margin-bottom: 35px;
-        }
-
-        .cards {
-            display: flex;
-            justify-content: center;
-            gap: 25px;
-            flex-wrap: wrap;
-        }
-
-        .card {
-            background: white;
-            width: 280px;
-            padding: 30px 20px;
-            border-radius: 15px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-        }
-
-        .card .emoji {
-            font-size: 50px;
-            margin-bottom: 15px;
-        }
-
-        .card h3 {
-            color: #d92778;
-            margin-bottom: 10px;
-        }
-
-        .card p {
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-.card img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-        footer {
-            background: #d92778;
-            color: white;
-            text-align: center;
-            padding: 25px;
-            margin-top: 30px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- Background Music -->
+<audio id="bgMusic" controls preload="auto">
+    <source src="rakhi.mp3" type="audio/mpeg">
+</audio>
 
-    <header>
-        <h2>🎉 Seema Celebrations</h2>
+    <!-- Floating Hearts -->
+    <div class="hearts">
+        <span>💗</span>
+        <span>💖</span>
+        <span>💕</span>
+        <span>💓</span>
+        <span>❤️</span>
+        <span>💗</span>
+        <span>💞</span>
+    </div>
 
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
 
-    <section class="hero" id="home">
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            🎀 Rakhi Love
+        </div>
 
-        <h1>Make Your Celebration Special 🎂</h1>
+        <a href="#message">
+            My Message 💌
+        </a>
+    </nav>
 
-        <p>
-            Beautiful birthday decorations & delicious cakes
-            for your special moments.
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="rakhi">
+            🪷
+        </div>
+
+        <p class="small-title">
+            A Special Day For My Special Bhaiya
         </p>
 
-      <button class="btn" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">
-    Book Your Celebration
-</button>
+        <h1>
+            Happy Raksha Bandhan
+            <span>Bhaiya 💗</span>
+        </h1>
+
+        <p class="hero-text">
+            A beautiful celebration of the most
+            precious bond between a brother and sister. ✨
+        </p>
+
+        <button onclick="openSurprise()">
+            🎁 Open Your Surprise
+        </button>
+
 
     </section>
 
 
-    <section class="section" id="services">
-
-    <h2>Our Celebration Packages</h2>
-
-    <div class="cards">
+    <!-- Message Section -->
+    <section id="message" class="message-section">
 
         <div class="card">
-            <img src="decoration.jpg" alt="Birthday Decoration">
 
-            <h3>Birthday Decoration</h3>
+            <div class="card-icon">
+                💌
+            </div>
 
-            <p>
-                Beautiful balloon decoration,
-                birthday backdrop and room decoration.
-            </p>
-
-            <p style="font-size: 18px; font-weight: bold; color: #d92778;">
-                Starting from ₹999
-            </p>
-
-          <a class="btn"
-   href="https://wa.me/918756089846?text=Hello%20Seema%20Celebrations,%20I%20want%20to%20book%20Birthday%20Decoration."
-   target="_blank">
-    Book Now
-</a>
-</div> 
- 
-        <div class="card">
-         <img src="cake.jpg" alt="Birthday Cake">
-
-            <h3>Birthday Cake</h3>
+            <h2>
+                Dear Bhaiya ❤️
+            </h2>
 
             <p>
-                Delicious and beautiful cakes
-                for birthdays and small celebrations.
+                Thank you for always being there for me,
+                protecting me, supporting me and making
+                every moment of my life special.
             </p>
 
-            <p style="font-size: 18px; font-weight: bold; color: #d92778;">
-                Starting from ₹499
+            <p>
+                No matter how much we fight,
+                tease each other or annoy each other,
+                you will always be one of the most
+                important people in my life. 🥰
             </p>
 
-           <a class="btn"
-   href="https://wa.me/918756089846?text=Hello%20Seema%20Celebrations,%20I%20want%20to%20order%20a%20Birthday%20Cake."
-   target="_blank">
-    Order Cake
-</a>
+            <p>
+                Our brother-sister bond is truly special.
+                I feel lucky to have a brother like you.
+                May you always stay happy, healthy and
+                successful. 🌸
+            </p>
+
+            <div class="rakhi-line">
+                🧿 ─── 💖 ─── 🧿
+            </div>
+
+            <h3>
+                Happy Raksha Bandhan! 🎉
+            </h3>
+
+            <p class="love">
+                Lots of love from your sister 💕
+            </p>
+
         </div>
 
+    </section>
 
-        <div class="card">
-        <img src="celebration.jpg" alt="Complete Celebration">
 
-            <h3>Complete Celebration</h3>
+    <!-- Special Memories -->
+    <section class="memories">
 
-            <p>
-                Decoration + Cake package
-                for a beautiful and stress-free celebration.
+        <p class="small-title">
+            Our Beautiful Bond
+        </p>
+
+        <h2>
+            Some Things Never Change 💞
+        </h2>
+
+        <div class="memory-container">
+
+            <div class="memory">
+                <div class="memory-icon">🫂</div>
+
+                <h3>
+                    Always Together
+                </h3>
+
+                <p>
+                    Through every happy and difficult moment.
+                </p>
+            </div>
+
+
+            <div class="memory">
+                <div class="memory-icon">😂</div>
+
+                <h3>
+                    Endless Fights
+                </h3>
+
+                <p>
+                    Because teasing each other is compulsory!
+                </p>
+            </div>
+
+
+            <div class="memory">
+                <div class="memory-icon">❤️</div>
+
+                <h3>
+                    Forever Love
+                </h3>
+
+                <p>
+                    No matter what, the bond remains forever.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Surprise Popup -->
+    <div id="surprise" class="surprise">
+
+        <div class="surprise-box">
+
+            <!-- Close Button -->
+            <div class="close" onclick="closeSurprise()">
+                ×
+            </div>
+
+
+            <!-- Balloons -->
+            <div class="balloons">
+
+                <span class="balloon balloon1">🎈</span>
+                <span class="balloon balloon2">🎈</span>
+                <span class="balloon balloon3">🎈</span>
+                <span class="balloon balloon4">🎈</span>
+
+            </div>
+
+
+            <!-- Surprise Content -->
+            <div class="crown">
+                👑
+            </div>
+
+            <p class="best-title">
+                WORLD'S BEST
             </p>
 
-            <p style="font-size: 18px; font-weight: bold; color: #d92778;">
-                Starting from ₹1,499
+            <h2 class="best-brother">
+                BROTHER ❤️
+            </h2>
+
+            <div class="heart-line">
+                💗 ───── 💖 ───── 💗
+            </div>
+
+            <p class="surprise-message">
+                Dear Bhaiya,
             </p>
 
-           <a class="btn"
-   href="https://wa.me/918756089846?text=Hello%20Seema%20Celebrations,%20I%20want%20to%20book%20the%20Complete%20Celebration%20package."
-   target="_blank">
-    Book Package
+            <p class="surprise-message">
+                You are not just my brother,
+                you are my protector, my supporter
+                and my best friend forever. 🥹❤️
+            </p>
+
+            <p class="surprise-message">
+                I am so lucky to have you in my life! 🥰
+            </p>
+
+            <p class="surprise-message">
+                Stay happy, stay blessed and achieve
+                all the success in life! ✨
+            </p>
+
+            <div class="popup-confetti">
+                🎊 ✨ 💖 🎉 💕 🎊
+            </div>
+            <a href="https://www.youtube.com/watch?v=nzelzk2sVH8"
+   target="_blank"
+   class="song-button">
+    💗 Dedicated to Our Bond 💗
+    <br>
+    <span>Tenu Sang Rakhna 🎵</span>
 </a>
+
+            <button class="love-button" onclick="closeSurprise()">
+                💖 Love You Bhaiya! 💖
+            </button>
+
         </div>
 
     </div>
 
-</section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            Made with ❤️ specially for Bhaiya
+        </p>
+
+        <p>
+            Happy Raksha Bandhan 🎀
+        </p>
+
+    </footer>
 
 
-    <section class="section" id="contact">
+    <!-- JavaScript -->
+    <script>
 
-    <h2>Contact Us</h2>
+ function openSurprise() {
 
-    <p style="font-size: 20px; margin-bottom: 25px;">
-        Ready to plan your celebration? 🎉
-    </p>
+    document
+        .getElementById("surprise")
+        .classList.add("show");
 
-    <p style="font-size: 18px; margin-bottom: 10px;">
-    📞 Call / WhatsApp:
-    <a href="tel:+918756089846" style="color: #e91e63; text-decoration: none;">
-        87560 89846
-    </a>
-</p>
+    const music = document.getElementById("bgMusic");
+    music.play();
 
-    <p style="font-size: 18px; margin-bottom: 25px;">
-        📧 Email: seemacelebrations@gmail.com
-    </p>
+}
 
-   <a class="btn" href="https://wa.me/918756089846?text=Hello%20Seema%20Celebrations,%20I%20want%20to%20book%20a%20celebration." target="_blank">
-    Book Your Celebration
-</a>
-</section>
-<!-- Website deployment update -->
-<footer>
 
-    <p>© 2026 Seema Celebrations | Birthday & Small Celebration Services</p>
+       function closeSurprise() {
 
-</footer>
+    document
+        .getElementById("surprise")
+        .classList.remove("show");
+
+    const music = document.getElementById("bgMusic");
+    music.pause();
+    music.currentTime = 0;
+
+}
+
+    </script>
+
 </body>
 
 </html>
